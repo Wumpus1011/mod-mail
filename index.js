@@ -1,11 +1,9 @@
 const { Client } = require("discord.js");
-const keepAlive = require('./server.js');
 const client = new Client({
   disableEveryone: true
 });
 
-//Keep alive & Login into the bot
-keepAlive();
+//Login into the bot
 client.login(config.token);
 
 //Requirements
@@ -17,7 +15,6 @@ const config = require('./config.json');
 //Client Ready
 client.on("ready", () => {
   //Console config message
-  console.log('\x1b[0m\x1b[32m%s\x1b[0m', '[SERVER] Server.js is Ready!');
   console.log('\x1b[32m%s\x1b[0m', '[CLIENT] Bot is Online!');
   //Status bot  
 })
