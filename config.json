@@ -1,0 +1,18 @@
+  {
+    "prefix": "prefix like: > or $",
+    "BotName": "your bot's name",
+
+    "ServerID": "server id, example: 968034775925420043",
+    "ServerName": "your server name",
+    "ModeratorRole": "The name of your staff role",
+    "ModMailCategoryName": "The name of the catagory",
+    
+    "EmbedColor": "GRAY",
+    "CloseEmbedColor": "RED",
+    "OpenEmbedColor": "GREEN",
+    "EmbedFooter": "Made by Wumpus Development",
+    
+    "StatusText": "DM for help",
+    "StatusType": "STREAMING",
+    "StatusURL": "https://www.twitch.tv/#"
+}  
